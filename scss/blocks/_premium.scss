@@ -1,0 +1,61 @@
+.premium {
+    width: 90%;
+    margin: 0 auto;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-white;
+
+    &__card {
+        display: flex;
+        align-items: center;
+        @include poppins-regular;
+    }
+
+    &__icon {
+        width: 102px;
+        height: 102px;
+        background: $color-main-violet;
+        border-radius: 23px;
+        margin-right: 25px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__body {
+        width: calc(100% - 127px);
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        color: $color-darkblue;
+        @include roboto-prem;
+        font-size: 28px;
+    }
+
+    &__text {
+        color: $color-premium;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .premium{
+        margin-left: 1%;
+        align-items: flex-start
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .premium__text {
+        font-size: 14px;
+    }
+
+    .premium__card {
+        margin-left: -25px;
+    }
+}

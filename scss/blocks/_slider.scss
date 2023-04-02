@@ -1,0 +1,34 @@
+.slider {
+    padding: 0 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider__nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+}
+
+.slider__point {
+    background: $color-text-extralight;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin: 15px;
+    @include interactive(0.6);
+}
+
+.slider__point--active, .slider__point:hover {
+    background: $color-main-violet;
+    width: 39px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .slider__row {
+        width: 400px;
+        margin-left: -30px;
+    }
+}

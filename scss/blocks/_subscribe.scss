@@ -1,0 +1,25 @@
+.subsckribe {
+    background-color: $color-main-violet;
+    border-radius: 14px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-white;
+    height: 350px;
+
+    &-title {
+        @include poppins-regular;
+        margin-top: 100px;
+        margin-bottom: 10px;
+
+    }
+    &-subtitle {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        @include poppins-bold
+
+    }
+}

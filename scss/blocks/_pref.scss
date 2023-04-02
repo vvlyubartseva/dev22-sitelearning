@@ -1,0 +1,57 @@
+.pref {
+    background-color: $color-main-violet;
+    border-radius: 14px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-white;
+
+    &__card {
+        display: flex;
+        align-items: center;
+        max-width: 30%;
+        @include poppins-regular;
+    }
+    
+    &__icon {
+        width: 102px;
+        height: 102px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 23px;
+        margin-right: 25px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__body {
+        width: calc(100% - 127px);
+    }
+    
+    &__title {
+        color: $color-white;
+        font-size: 28px;
+    }
+    
+    &__text {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1105px) {
+    .pref {
+        flex-direction: column;
+        padding: 35px 70px;
+        box-sizing: border-box;
+
+        &__card {
+            max-width: 100%;
+            margin: 30px;
+        }
+    }
+}

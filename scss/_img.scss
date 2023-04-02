@@ -1,0 +1,109 @@
+.vektororange {
+    position: absolute;
+    top: 5034px;
+    left: 200px;  
+}
+.lamp {
+    position: absolute;
+    top: 5030px;
+    right: 190px;
+}
+
+.vectorviolet {
+    position: absolute;
+    top: 3820px;
+}
+.planet {
+    position: absolute;
+    top: 3800px;
+    right: 10px;
+
+}
+.lamptop {
+    position: absolute;
+    top: 1300px;
+    left: 10px;
+}
+.vectortop {
+    position: absolute;
+    top: 1300px;
+    right: 10px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .lamp {
+        width: 12%;
+        top: 6365px;
+        right: 194px;
+    }
+
+    .vektororange {
+        position: absolute;
+        width: 12%;
+        top: 6414px;
+        left: 254px;
+    }
+
+    .vectorviolet {
+        left: 200px;
+        top: 5250px;
+        width: 12%;
+    }
+    .planet {
+        right: 200px;
+        top: 5250px;
+        width: 12%;
+    
+    }
+    .lamptop {
+        top: 1670px;
+        left: 170px;
+        width: 12%;
+    }
+    .vectortop {
+        right: 170px;
+        top: 1670px;
+        width: 12%;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+
+    .lamp {
+        width: 12%;
+        top: 8625px;
+        right: 120px;
+    }
+
+    .vektororange {
+        width: 12%;
+        top: 8620px;
+        left: 96px;
+    }
+
+    .vectorviolet {
+        top: 6270px;
+        left: 60px;
+        width: 17%;
+    }
+    .planet {
+        right: 60px;
+        top: 6263px;
+        width: 12%;
+    }
+    .lamptop {
+        top: 2035px;
+        left: 55px;
+        width: 12%;
+    }
+    .vectortop {
+        top: 2030px;
+        right: 75px;
+        width: 12%;
+    }  
+}
+
+
+    

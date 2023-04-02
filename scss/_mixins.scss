@@ -1,0 +1,54 @@
+@mixin roboto-bold {
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+@mixin roboto-foot {
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+@mixin roboto-prem {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+@mixin roboto-normal {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+@mixin jost-extrabold {
+    font-family: 'Jost';
+    font-weight: 600;
+}
+
+@mixin jost-regular {
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+@mixin poppins-black {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+@mixin poppins-extrabold {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+@mixin poppins-bold {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+@mixin poppins-regular {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+@mixin interactive($transition: 0.3s) {
+    cursor: pointer;
+    transition: $transition;
+}

@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 148px;
+
+    &__desc {
+        color: $color-text-light;
+        font-size: 20px;
+        @include poppins-regular;
+        margin-bottom: 50px;
+    }
+
+    &__info {
+        width: 50%;
+    }
+
+    &__img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero {
+        flex-direction: column-reverse;
+        
+        &__info {
+            width: 100%;
+        }
+
+        &__img {
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero__desc {
+        font-size: 17px;
+    }
+}

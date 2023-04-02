@@ -1,0 +1,12 @@
+.input {
+    height: 65px;
+    background-color: $color-white;
+    border: none;
+    border-radius: 33px;
+    padding: 0px 33px;
+    font-size: 18px;
+    @include poppins-regular;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 245px;
+}

@@ -1,0 +1,26 @@
+.user {
+    display: flex;
+}
+
+.user__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user__avatar {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user__name {
+    @include poppins-bold;
+    font-size: 17px;
+}
+
+.user__status {
+    @include poppins-regular;
+    font-size: 13px;
+    color: $color-text-extralight;
+}

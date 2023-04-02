@@ -1,0 +1,31 @@
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 190px;
+    height: 65px;
+    padding: 13px 57px;
+    border-radius: 33px;
+    border: 2px solid $color-main-violet;
+    background: $color-main-violet;
+    color: $color-white;
+    @include poppins-bold;
+    font-size: 25px;
+    @include interactive();
+    text-align: center;
+
+    &:hover {
+        background: $color-white;
+        color: $color-main-violet;
+    }
+    
+    &--orange {
+        border: 2px solid $color-btn-accent;
+        background: $color-btn-accent;
+    }
+    
+    &--orange:hover {
+        background: $color-white;
+        color: $color-btn-accent;
+    }
+}
+

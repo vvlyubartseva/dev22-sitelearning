@@ -1,0 +1,51 @@
+.ellips1l {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 233px;
+    height: 233px;
+    position: absolute;
+    top: 4680px;
+    left: 149px;
+}
+.ellips2l {
+    border-radius: 50%;
+    border: 2px solid  #fff;
+    width: 233px;
+    height: 233px;
+    position: absolute;
+    top: 4755px;
+    left: 65px;
+}
+.ellips3r {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 233px;
+    height: 233px;
+    position: absolute;
+    right: 80px;
+    top: 4691px;
+}
+.ellips4r {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 233px;
+    height: 233px;
+    position: absolute;
+    right: 40px;
+    top: 4754px;
+}
+
+@media screen and (max-width: 1200px) {
+    .ellips1l, .ellips2l, .ellips3r, .ellips4r {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .ellips1l, .ellips2l, .ellips3r, .ellips4r {
+    display: none;
+}
+
+}
